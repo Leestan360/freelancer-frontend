@@ -1,5 +1,3 @@
-import userImage from "../images/user-dp-1.jpg";
-
 function NavBar() {
   return (
     <header>
@@ -62,7 +60,7 @@ function NavBar() {
                         <div className="request-users">
                           <div className="user-request-dt">
                             <a href="#">
-                              <img src={userImage} alt="" />
+                              <img src="images/user-dp-1.jpg" alt="" />
                               <div className="user-title1">
                                 Jassica William{" "}
                               </div>
@@ -76,7 +74,7 @@ function NavBar() {
                         <div className="request-users">
                           <div className="user-request-dt">
                             <a href="#">
-                              <img src={userImage} alt="" />
+                              <img src="images/user-dp-1.jpg" alt="" />
                               <div className="user-title1">Rock Smith </div>
                               <span>
                                 Interesting Event! I will join this...
@@ -90,7 +88,7 @@ function NavBar() {
                         <div className="request-users">
                           <div className="user-request-dt">
                             <a href="#">
-                              <img src={userImage} alt="" />
+                              <img src="images/user-dp-1.jpg" alt="" />
                               <div className="user-title1">Joy Doe </div>
                               <span>Hey Sir! What about you...</span>
                             </a>

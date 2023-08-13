@@ -352,7 +352,7 @@
 .mCSB_scrollTools .mCSB_buttonLeft,
 .mCSB_scrollTools .mCSB_buttonRight,
 .mCSB_scrollTools .mCSB_buttonUp {
-  background-image: url("../images/fav.png");
+  background-image: url("/public/images/fav.png");
   background-repeat: no-repeat;
   opacity: .4;
   filter: "alpha(opacity=40)";

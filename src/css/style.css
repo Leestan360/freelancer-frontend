@@ -2175,7 +2175,7 @@ span.right-cm {
 /* === Browsers Jobs === */
 
 .title-bar {
-  background-image: url(../images/title-bg.jpg);
+  background-image: url(/public/images/title-bg.jpg);
   background-position: bottom;
   float: left;
   width: 100%;
@@ -2484,7 +2484,7 @@ span.right-cm {
 .browse-banner {
   float: left;
   width: 100%;
-  background-image: url(../images/browse/banner.jpg);
+  background-image: url(/public/images/browse/banner.jpg);
   padding: 20px 30px;
 }
 
