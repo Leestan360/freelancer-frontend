@@ -1,11 +1,13 @@
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 function PostAProject() {
   return (
     <div>
-
-      <title>Jobby - Post a Project</title>
+      <Helmet>
+        <title>Jobby - Post A Project</title>
+      </Helmet>
 
       {/* Search Model Start */}
       <div

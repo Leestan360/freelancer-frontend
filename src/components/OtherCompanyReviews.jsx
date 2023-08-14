@@ -1,10 +1,13 @@
+import { Helmet } from "react-helmet";
 import NavBar from "./NavBar";
 
 function OtherCompanyReviews() {
   return (
     <div>
 
-      <title>Jobby - Other Company Profile</title>
+<Helmet>
+        <title>Jobby - Other Company Profile</title>
+      </Helmet>
 
       {/* Search Model Start */}
       <div

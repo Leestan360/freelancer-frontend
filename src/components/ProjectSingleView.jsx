@@ -1,12 +1,14 @@
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 function ProjectSingleView() {
   return (
     <div>
+      <Helmet>
+        <title>Jobby - Project Single View</title>
+      </Helmet>
 
-      <title>Jobby - Project Single View</title>
- 
       {/* Search Model Start */}
       <div
         className="modal srch-model fade"

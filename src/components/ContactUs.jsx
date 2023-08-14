@@ -1,11 +1,13 @@
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 function ContactUs() {
   return (
     <div>
-
-      <title>Jobby - Contact Us</title>
+      <Helmet>
+        <title>Jobby - Contact Us</title>
+      </Helmet>
 
       {/* Search Model Start */}
       <div

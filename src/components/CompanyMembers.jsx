@@ -1,12 +1,14 @@
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 function CompanyMembers() {
   return (
     <div>
+      <Helmet>
+        <title>Jobby - Company Dashboard</title>
+      </Helmet>
 
-      <title>Jobby - Company Dashboard</title>
- 
       {/* Map Box */}
       <link
         href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.css"

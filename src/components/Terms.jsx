@@ -1,11 +1,13 @@
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 function Terms() {
   return (
     <div>
-
-      <title>Jobby - Terms of Service</title>
+      <Helmet>
+        <title>Jobby - Terms of Service</title>
+      </Helmet>
 
       {/* Search Model Start */}
       <div

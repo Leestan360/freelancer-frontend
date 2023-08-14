@@ -1,10 +1,12 @@
+import { Helmet } from "react-helmet";
 import NavBar from "./NavBar";
 
 function MyFreelancerSetting() {
   return (
     <div>
-
-      <title>Jobby - My Freelancer Dashboard</title>
+      <Helmet>
+        <title>Jobby - My Freelancer Dashboard</title>
+      </Helmet>
 
       {/* Search Model Start */}
       <div
@@ -243,63 +245,60 @@ function MyFreelancerSetting() {
               <div className="account_tabs">
                 <ul className="nav nav-tabs">
                   <li className="nav-item">
-                    <a className="nav-link" href="my_freelancer_dashboard.html">
+                    <a className="nav-link" href="/my-freelancer-dashboard">
                       Dashboard
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="my_freelancer_profile.html">
-                      Profile
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="my_freelancer_portfolio.html">
-                      Portfolio
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      href="my_freelancer_notifications.html"
-                    >
-                      Notifications
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="my_freelancer_messages.html">
-                      Messages
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="my_freelancer_bookmarks.html">
-                      Bookmarks
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="my_freelancer_jobs.html">
-                      Jobs
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="my_freelancer_bids.html">
-                      Bids
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="my_freelancer_reviews.html">
-                      Reviews
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="my_freelancer_payments.html">
-                      Payment
                     </a>
                   </li>
                   <li className="nav-item">
                     <a
                       className="nav-link active"
-                      href="my_freelancer_setting.html"
+                      href="/my-freelancer-profile"
                     >
+                      Profile
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="/my-freelancer-portfolio">
+                      Portfolio
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="/my-freelancer-notifications">
+                      Notifications
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="/my-freelancer-messages">
+                      Messages
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="/my-freelancer-bookmarks">
+                      Bookmarks
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="/my-freelancer-jobs">
+                      Jobs
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="/my-freelancer-bids">
+                      Bids
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="/my-freelancer-reviews">
+                      Reviews
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="/my-freelancer-payments">
+                      Payment
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="/my-freelancer-setting">
                       <i className="fas fa-cog" />
                     </a>
                   </li>

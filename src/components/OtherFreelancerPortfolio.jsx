@@ -1,11 +1,13 @@
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 function OtherFreelancerPortfolio() {
   return (
     <div>
-
-      <title>Jobby - Other Freelancer Profile</title>
+      <Helmet>
+        <title>Jobby - Other Company Profile</title>
+      </Helmet>
 
       {/* Search Model Start */}
       <div

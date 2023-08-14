@@ -1,10 +1,12 @@
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 
 function SignupSelectProfile() {
   return (
     <div>
-
-      <title>Jobby - Sign Up Select Profile</title>
+      <Helmet>
+        <title>Jobby - Sign Up Select Profile</title>
+      </Helmet>
 
       {/* Search Model Start */}
       <div

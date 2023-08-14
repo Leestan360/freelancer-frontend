@@ -1,12 +1,13 @@
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 function PrivacyPolicy() {
   return (
     <div>
-
-      <title>Jobby - Privacy Policy</title>
- 
+      <Helmet>
+        <title>Jobby - Privacy Policy</title>
+      </Helmet>
 
       {/* Search Model Start */}
       <div

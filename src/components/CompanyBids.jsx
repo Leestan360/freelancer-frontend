@@ -1,11 +1,13 @@
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 function CompanyBids() {
   return (
     <div>
-
-      <title>Jobby - Company Dashboard</title>
+      <Helmet>
+        <title>Jobby - Company Dashboard</title>
+      </Helmet>
 
       {/* Map Box */}
       <link

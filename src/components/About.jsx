@@ -1,10 +1,13 @@
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 function About() {
   return (
     <div>
-      <title>Jobby - About Us</title>
+      <Helmet>
+        <title>Jobby - About Us</title>
+      </Helmet>
       {/* Search Model Start */}
       <div
         className="modal srch-model fade"

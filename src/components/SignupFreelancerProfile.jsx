@@ -1,10 +1,13 @@
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 function SignupFreelancerProfile() {
   return (
     <div>
-      <title>Jobby - Sign Up Freelancer Profile</title>
+      <Helmet>
+        <title>Jobby - Sign Up Freelancer Profile</title>
+      </Helmet>
 
       {/* Search Model Start */}
       <div

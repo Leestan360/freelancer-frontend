@@ -1,11 +1,13 @@
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 function JobSingleView() {
   return (
     <div>
-
-      <title>Jobby - Job Single View</title>
+      <Helmet>
+        <title>Jobby - Job Single View</title>
+      </Helmet>
 
       {/* Search Model Start */}
       <div

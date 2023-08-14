@@ -1,12 +1,13 @@
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowAltCircleUp } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   return (
     <div>
-      <title>Jobby - Home</title>
+      <Helmet>
+        <title>Jobby - Home</title>
+      </Helmet>
 
       {/* Search Model Start */}
       <div
@@ -183,7 +184,7 @@ function Home() {
                   <li>
                     <button
                       className="add-job"
-                      onclick="window.location.href = 'post_a_job.html';"
+                      onclick="window.location.href = '/post-a-job';"
                     >
                       Post a Job
                     </button>
@@ -191,7 +192,7 @@ function Home() {
                   <li>
                     <button
                       className="add-project"
-                      onclick="window.location.href = 'post_a_project.html';"
+                      onclick="window.location.href = '/post-a-project';"
                     >
                       Post a Work
                     </button>
@@ -338,7 +339,7 @@ function Home() {
                             </li>
                             <li>
                               <a
-                                href="job_single_view.html"
+                                href="/job-single-view"
                                 className="link-j1"
                                 title="View Job"
                               >
@@ -400,7 +401,7 @@ function Home() {
                             </li>
                             <li>
                               <a
-                                href="job_single_view.html"
+                                href="/job-single-view"
                                 className="link-j1"
                                 title="View Job"
                               >
@@ -463,7 +464,7 @@ function Home() {
                             </li>
                             <li>
                               <a
-                                href="job_single_view.html"
+                                href="/job-single-view"
                                 className="link-j1"
                                 title="View Job"
                               >
@@ -524,7 +525,7 @@ function Home() {
                             </li>
                             <li>
                               <a
-                                href="job_single_view.html"
+                                href="/job-single-view"
                                 className="link-j1"
                                 title="View Job"
                               >
@@ -584,7 +585,7 @@ function Home() {
                             </li>
                             <li>
                               <a
-                                href="job_single_view.html"
+                                href="/job-single-view"
                                 className="link-j1"
                                 title="View Job"
                               >
@@ -646,7 +647,7 @@ function Home() {
                             </li>
                             <li>
                               <a
-                                href="job_single_view.html"
+                                href="/job-single-view"
                                 className="link-j1"
                                 title="View Job"
                               >
@@ -905,7 +906,7 @@ function Home() {
                           <ul className="link-btn">
                             <li>
                               <a
-                                href="other_freelancer_profile.html"
+                                href="/other-freelancer-profile"
                                 className="link-j1"
                                 title="View Profile"
                               >
@@ -972,7 +973,7 @@ function Home() {
                           <ul className="link-btn">
                             <li>
                               <a
-                                href="other_freelancer_profile.html"
+                                href="/other-freelancer-profile"
                                 className="link-j1"
                                 title="View Profile"
                               >
@@ -1038,7 +1039,7 @@ function Home() {
                           <ul className="link-btn">
                             <li>
                               <a
-                                href="other_freelancer_profile.html"
+                                href="/other-freelancer-profile"
                                 className="link-j1"
                                 title="View Profile"
                               >
@@ -1104,7 +1105,7 @@ function Home() {
                           <ul className="link-btn">
                             <li>
                               <a
-                                href="other_freelancer_profile.html"
+                                href="/other-freelancer-profile"
                                 className="link-j1"
                                 title="View Profile"
                               >
@@ -1170,7 +1171,7 @@ function Home() {
                           <ul className="link-btn">
                             <li>
                               <a
-                                href="other_freelancer_profile.html"
+                                href="/other-freelancer-profile"
                                 className="link-j1"
                                 title="View Profile"
                               >
@@ -1236,7 +1237,7 @@ function Home() {
                           <ul className="link-btn">
                             <li>
                               <a
-                                href="other_freelancer_profile.html"
+                                href="/other-freelancer-profile"
                                 className="link-j1"
                                 title="View Profile"
                               >
@@ -1315,7 +1316,7 @@ function Home() {
                   <div className="btns15">
                     <button
                       className="btn-152"
-                      onclick="window.location.href = 'post_a_job.html';"
+                      onclick="window.location.href = '/post-a-job';"
                     >
                       Post a Job
                     </button>
@@ -1371,7 +1372,7 @@ function Home() {
                   <div className="btns15">
                     <button
                       className="btn-152"
-                      onclick="window.location.href = 'browse_freelancers.html';"
+                      onclick="window.location.href = '/browse-freelancers';"
                     >
                       Get Listed
                     </button>
@@ -1393,14 +1394,18 @@ function Home() {
       <Footer />
       {/* footer End */}
       {/* Scroll to Top Button Start */}
-      <button onclick="topFunction()" id="pageup" title="Go to top">
-        <FontAwesomeIcon
-          icon={faArrowAltCircleUp}
-          className="fas fa-arrow-up"
-        />
+      <button onClick="topFunction()" id="pageup" title="Go to top">
+        <i className="fas fa-arrow-up" />
       </button>
       {/* Scroll to Top Button End */}
       {/* Scripts js */}
+      <script src="js/jquery.min.js"></script>
+      <script src="js/datepicker.min.js"></script>
+      <script src="js/i18n/datepicker.en.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="vendor/OwlCarousel/owl.carousel.js"></script>
+      <script src="vendor/semantic/semantic.min.js"></script>
+      <script src="js/custom1.js"></script>
     </div>
   );
 }

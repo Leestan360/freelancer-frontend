@@ -1,11 +1,13 @@
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 function CompanySetting() {
   return (
     <div>
-
-      <title>Jobby - Company Dashboard</title>
+      <Helmet>
+        <title>Jobby - Company Dashboard</title>
+      </Helmet>
 
       {/* Search Model Start */}
       <div

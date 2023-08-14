@@ -1,8 +1,11 @@
+import { Helmet } from "react-helmet";
+
 function PlanInvoice() {
   return (
     <div>
-
-      <title>Jobby - Plan Invoice</title>
+      <Helmet>
+        <title>Jobby - Plan Invoice</title>
+      </Helmet>
 
       {/* Header Start */}
       <div className="invc_header">

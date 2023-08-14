@@ -1,16 +1,16 @@
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 function CompanyMessages() {
   return (
     <div>
-
-      <title>Jobby - Company Dashboard</title>
-
-      <link href="css/jquery.mCustomScrollbar.min.css" rel="stylesheet" />
+      <Helmet>
+        <title>Jobby - Company Dashboard</title>
+      </Helmet>
 
       {/* Map Box */}
- 
+
       {/* Search Model Start */}
       <div
         className="modal srch-model fade"

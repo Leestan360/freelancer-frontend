@@ -1,12 +1,13 @@
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 function Checkout() {
   return (
     <div>
-
-      <title>Jobby - Checkout Plans</title>
-
+      <Helmet>
+        <title>Jobby - Checkout</title>
+      </Helmet>
 
       {/* Search Model Start */}
       <div

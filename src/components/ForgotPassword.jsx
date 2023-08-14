@@ -1,10 +1,12 @@
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 
 function ForgotPassword() {
   return (
     <div>
-
-      <title>Jobby - Forgot Password</title>
+      <Helmet>
+        <title>Jobby - Forgot Password</title>
+      </Helmet>
 
       {/* Search Model Start */}
       <div
